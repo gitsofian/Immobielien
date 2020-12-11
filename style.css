@@ -103,15 +103,34 @@ article img{
 }
 
 #text{
-    background-color: blue;
-    width: 69%;
+    background-color: rgb(140, 140, 231);
+    width: 68%;
+    text-align: justify;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+.btn{
+    text-align: center;
+}
+button{
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f90;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: navajowhite;
+}
+button:hover{
+    background-color: #f80;
 }
 #photo{
     background-color: blueviolet;
     width: 29%;
 }
-
-
 
 footer{
     background-color: rgb(7, 224, 7);
@@ -179,11 +198,12 @@ footer a:hover{
     }
     #text{
         width: 100%;
+        margin-bottom: 5px;
     }
     #photo{
         width: 100%;
+        display: flex;
     }
-
 
     footer{
         flex-direction: column;
